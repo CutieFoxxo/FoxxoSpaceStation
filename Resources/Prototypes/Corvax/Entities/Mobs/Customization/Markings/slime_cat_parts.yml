@@ -3,11 +3,11 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [SlimePerson]
-  sponsorOnly: true # Corvax-Sponsors
+  sponsorOnly: false # Foxxo-Changes
   sprites:
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: /Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_cat_outer
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: /Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_cat_inner
 
 - type: marking
@@ -15,21 +15,21 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [SlimePerson]
-  sponsorOnly: true # Corvax-Sponsors
+  sponsorOnly: false # Foxxo-Changes
   sprites:
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
-    state: slime_tail_cat_wag # Corvax-Sponsors
+  - sprite: /Mobs/Customization/slime_cat_parts.rsi
+    state: slime_tail_cat_wag # Foxxo-Changes
 
 - type: marking
   id: SlimeCatEarsStubby
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [SlimePerson]
-  sponsorOnly: true # Corvax-Sponsors
+  sponsorOnly: false # Foxxo-Changes
   sprites:
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: /Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_stubby_outer
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: /Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_stubby_inner
 
 - type: marking
@@ -37,11 +37,11 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [SlimePerson]
-  sponsorOnly: true # Corvax-Sponsors
+  sponsorOnly: false # Foxxo-Changes
   sprites:
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: /Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_curled_outer
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: /Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_curled_inner
 
 - type: marking
@@ -49,11 +49,11 @@
   bodyPart: HeadTop
   markingCategory: HeadTop
   speciesRestriction: [SlimePerson]
-  sponsorOnly: true # Corvax-Sponsors
+  sponsorOnly: false # Foxxo-Changes
   sprites:
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: /Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_torn_outer
-  - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+  - sprite: /Mobs/Customization/slime_cat_parts.rsi
     state: ears_slime_torn_inner
 
 - type: marking
@@ -61,9 +61,9 @@
   bodyPart: Tail
   markingCategory: Tail
   speciesRestriction: [SlimePerson]
-  sponsorOnly: true # Corvax-Sponsors
+  sponsorOnly: false # Foxxo-Changes
   sprites:
-    - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+    - sprite: /Mobs/Customization/slime_cat_parts.rsi
       state: slime_tail_cat_wag_stripes_prime
-    - sprite: Corvax/Mobs/Customization/slime_cat_parts.rsi
+    - sprite: /Mobs/Customization/slime_cat_parts.rsi
       state: slime_tail_cat_wag_stripes_second
