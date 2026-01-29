@@ -1,0 +1,55 @@
+﻿- type: body
+  id: Dragon
+  name: "dragon"
+  root: torso
+  slots:
+    head:
+      part: HeadDragon
+      connections:
+      - torso
+      organs:
+        brain: OrganHumanBrain
+        eyes: OrganHumanEyes
+    torso:
+      part: TorsoDragon
+      connections:
+      - right_arm
+      - left_arm
+      - right_leg
+      - left_leg
+      - right_wing
+      - left_wing
+      organs:
+        heart: OrganHumanHeart
+        lungs: OrganHumanLungs
+        stomach: OrganHumanStomach
+        liver: OrganHumanLiver
+        kidneys: OrganHumanKidneys
+    right_arm:
+      part: RightArmDragon
+      connections:
+      - right_hand
+    left_arm:
+      part: LeftArmDragon
+      connections:
+      - left_hand
+    right_hand:
+      part: RightHandDragon
+    left_hand:
+      part: LeftHandDragon
+    right_wing:
+      part: RightWingDragon
+    left_wing:
+      part: LeftWingDragon
+    right_leg:
+      part: RightLegDragon
+      connections:
+      - right_foot
+    left_leg:
+      part: LeftLegDragon
+      connections:
+      - left_foot
+    right_foot:
+      part: RightFootDragon
+    left_foot:
+      part: LeftFootDragon
